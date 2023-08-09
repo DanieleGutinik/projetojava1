@@ -1,5 +1,7 @@
 package curso.java.dany;
 
+import java.sql.Date;
+
 public class Pessoa {
 	
 	private String nome;
@@ -7,6 +9,25 @@ public class Pessoa {
 	private String Sobrenome;
 	
 	private int idade;
+	
+	private Date datanascimento;
+
+	
+	public Date getDatanascimento() {
+		return datanascimento;
+	}
+
+	public void setDatanascimento(Date datanascimento) {
+		this.datanascimento = datanascimento;
+	}
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
 
 	public String getNome() {
 		return nome;
